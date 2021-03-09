@@ -2,7 +2,7 @@
 GOCMD=go
 GOBUILD=$(GOCMD) build
 
-VERSION=0.9.2
+VERSION=0.12.18
 GOLANG_VERSION?=1.14
 GIT_COMMIT:=$(shell git rev-parse --short HEAD)
 
